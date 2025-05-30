@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8" />
+    <title>C# cайт</title>
+    <base href="/CSharp-Website/" />
+    <link rel="icon" href="Icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div id="app">
+        <div style="
+        font-family: Segoe UI, sans-serif;
+        color: #007acc;
+        font-size: 1.3rem;
+        margin-top: 30vh;
+        text-align: center;
+        animation: pulse 1.5s infinite;">
+            Завантаження C#...
+        </div>
+    </div>
+
+    <style>
+        @keyframes pulse {
+            0% {
+                opacity: 0.3;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0.3;
+            }
+        }
+    </style>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="scroll.js" type="module"></script>
+</body>
+</html>
